@@ -13,19 +13,21 @@ function include(file)
 
 /* include any js files here */
 //uncomment the following line to activate light sensor 
-include('js/sensorlab/lightSensor.js');
+include('js/sensorlab-master/lightSensor.js');
 //uncomment the following line to activate pressure sensor 
-include('js/sensorlab/pressureSensor.js');
+include('js/sensorlab-master/pressureSensor.js');
 //uncomment the following line to activate gyroscope sensor 
-include('js/sensorlab/gyroscopeSensor.js');
+include('js/sensorlab-master/gyroscopeSensor.js');
 //uncomment the following line to activate pressure sensor 
-//include('js/sensorlab/gravitySensor.js');
+include('js/sensorlab-master/gravitySensor.js');
 //uncomment the following line to activate accelerometer sensor 
-include('js/sensorlab/accelerometerSensor.js');
+include('js/sensorlab-master/accelerometerSensor.js');
 //uncomment the following line to activate HRM sensor 
-//include('js/sensorlab/heartrateSensor.js');
+include('js/sensorlab-master/heartrateSensor.js');
 //uncomment the following line to activate vibration 
-include('js/sensorlab/vibrate.js');
-//uncomment the following line to activate light sensor 
-//include('js/sensorlab/proximitySensor.js');
+include('js/sensorlab-master/vibrate.js');
+//uncomment the following line to activate pedometer sensor 
+include('js/sensorlab-master/pedometerSensor.js');
+//uncomment the following line to activate Gps sensor 
+include('js/sensorlab-master/gpsSensor.js');
 

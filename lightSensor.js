@@ -18,7 +18,7 @@ if (lightCapability === true) {
 	lightSensor = tizen.sensorservice.getDefaultSensor('LIGHT');
 }
 	
-lightSensor.start(onsuccessCB);
+lightSensor.start(light_onsuccessCB);
 
 }
 
@@ -30,19 +30,19 @@ if (lightCapability === true) {
 	lightSensor = tizen.sensorservice.getDefaultSensor('LIGHT');
 }
 	
-lightSensor.getSensorHardwareInfo(onsuccessCB_hwInfo, onerrorCB);
+lightSensor.getSensorHardwareInfo(light_onsuccessCB_hwInfo, light_onerrorCB);
 
 }
 	
-function onsuccessCB()
+function light_onsuccessCB()
 {
   console.log("Light sensor started succesfully");
   
-  lightSensor.getLightSensorData(onGetSuccessCB, onerrorCB);
+  lightSensor.getLightSensorData(light_onGetSuccessCB, light_onerrorCB);
   
 }
 
-function onsuccessCB_hwInfo(hwInfo) {
+function light_onsuccessCB_hwInfo(hwInfo) {
 	console.log("Light Sensor Hardware Information");
     console.log('name: ' + hwInfo.name);
     console.log('type: ' + hwInfo.type);
@@ -54,26 +54,23 @@ function onsuccessCB_hwInfo(hwInfo) {
     console.log('maxBatchCount: ' + hwInfo.maxBatchCount);
 }
 
-function onGetSuccessCB(sensorData) {
+function light_onGetSuccessCB(sensorData) {
     console.log('light level: ' + sensorData.lightLevel);
 	light = sensorData.lightLevel;
 	lightRateEl.innerHTML = '';
     lightRateEl.innerHTML = "Light:" + ((light/65536)*100).toFixed(1)+"%";
-    lightSensor.setChangeListener(onchangedCB);
-    //return light;
+    lightSensor.setChangeListener(light_onchangedCB);
 }
 
-function onchangedCB(sensorData) {
+function light_onchangedCB(sensorData) {
     console.log('Light sensor data: ' + sensorData.lightLevel);
     light = sensorData.lightLevel;
-    //console.log('Light value2: ' + light);
-    //return light;
     lightRateEl.innerHTML = '';
     lightRateEl.innerHTML = "Light:" + ((light/65536)*100).toFixed(1)+"%";
     console.log('light value updated');
 }
 
-function onerrorCB(error) {
+function light_onerrorCB(error) {
     console.log("Error name:"+error.name + ", message: "+error.message);
 }
 
