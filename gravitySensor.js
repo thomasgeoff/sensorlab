@@ -1,47 +1,47 @@
-var gx,gy,gz = 0;
+var grx,gry,grz = 0;
 
-var gyroscopeSensor;
+var gravitySensor;
 	
-var gyroRateEl;
+var gravityRateEl;
 
-var gyroscopeCapability = tizen.systeminfo.getCapability('http://tizen.org/feature/sensor.gravity');
+var gravityCapability = tizen.systeminfo.getCapability('http://tizen.org/feature/sensor.gravity');
 
-function getGyroscope(){
+function getGravity(){
 
-if (gyroscopeCapability === true) {
+if (gravityCapability === true) {
 	/* Device supports the gyroscope sensor */
-	console.log("Device supports the gyroscope sensor");
-	gyroscopeSensor = tizen.sensorservice.getDefaultSensor('GRAVITY');
+	console.log("Device supports the gravity sensor");
+	gravitySensor = tizen.sensorservice.getDefaultSensor('GRAVITY');
 }
 	
-gyroscopeSensor.start(gyroscope_onsuccessCB);
+gravitySensor.start(gravity_onsuccessCB);
 
 
 }
 
-function getGyroscopeInfo(){
+function getGravityInfo(){
 
-if (gyroscopeCapability === true) {
-	/* Device supports the gyroscope sensor */
-	console.log("Device supports the gyroscope sensor");
-	gyroscopeSensor = tizen.sensorservice.getDefaultSensor('GRAVITY');
-}
-	
-gyroscopeSensor.getSensorHardwareInfo(gyroscope_onsuccessCB_hwInfo, onerrorCB);
-
+if (gravityCapability === true) {
+	/* Device supports the gravity sensor */
+	console.log("Device supports the gravity sensor");
+	gravitySensor = tizen.sensorservice.getDefaultSensor('GRAVITY');
 }
 	
-function gyroscope_onsuccessCB()
+gravitySensor.getSensorHardwareInfo(gravity_onsuccessCB_hwInfo, onerrorCB);
+
+}
+	
+function gravity_onsuccessCB()
 {
-  console.log("Gyroscope sensor started succesfully");
+  console.log("Gravity sensor started succesfully");
   
-  gyroscopeSensor.getGravitySensorData(gyroscope_onGetSuccessCB, gyroscope_onerrorCB);
+  gravitySensor.getGravitySensorData(gravity_onGetSuccessCB, gravity_onerrorCB);
   
 }
 
-function gyroscope_onsuccessCB_hwInfo(hwInfo) {
+function gravity_onsuccessCB_hwInfo(hwInfo) {
 	
-	console.log("Gyroscope Sensor Hardware Information");
+	console.log("Gravity Sensor Hardware Information");
     console.log('name: ' + hwInfo.name);
     console.log('type: ' + hwInfo.type);
     console.log('vendor: ' + hwInfo.vendor);
@@ -53,40 +53,40 @@ function gyroscope_onsuccessCB_hwInfo(hwInfo) {
 
 }
 
-function gyroscope_onGetSuccessCB(sensorData) {
+function gravity_onGetSuccessCB(sensorData) {
 	
-	gx = (sensorData.x).toFixed(2);
-	gy = (sensorData.y).toFixed(2);
-	gz = (sensorData.z).toFixed(2);
-    console.log("######## Get gyroscope sensor data ########");
-    console.log("gx: " + sensorData.x);
-    console.log("gy: " + sensorData.y);
-    console.log("gz: " + sensorData.z);
+	grx = (sensorData.x).toFixed(2);
+	gry = (sensorData.y).toFixed(2);
+	grz = (sensorData.z).toFixed(2);
+    console.log("######## Get gravity sensor data ########");
+    console.log("grx: " + sensorData.x);
+    console.log("gry: " + sensorData.y);
+    console.log("grz: " + sensorData.z);
   
-    gyroscopeSensor.setChangeListener(gyroscope_onchangedCB);
+    gravitySensor.setChangeListener(gravity_onchangedCB);
 }
 
-function gyroscope_onchangedCB(sensorData) {
+function gravity_onchangedCB(sensorData) {
 	
-	gx = sensorData.x.toFixed(2);
-	gy = sensorData.y.toFixed(2);
-	gz = sensorData.z.toFixed(2);
+	grx = sensorData.x.toFixed(2);
+	gry = sensorData.y.toFixed(2);
+	grz = sensorData.z.toFixed(2);
 	
-	gyroRateEl.innerHTML = '';
-    gyroRateEl.innerHTML = "GX:" + gx+"<br>"+"GY:" + gy+"<br>"+"GZ:" + gz;
+	gravityRateEl.innerHTML = '';
+    gravityRateEl.innerHTML = "GRX:" + grx+"<br>"+"GRY:" + gry+"<br>"+"GRZ:" + grz;
     
-	console.log("######## Get gyroscope sensor data ########");
-	console.log("gx: " + sensorData.x);
-	console.log("gy: " + sensorData.y);
-	console.log("gz: " + sensorData.z);
+	console.log("######## Get gravity sensor data ########");
+	console.log("grx: " + sensorData.x);
+	console.log("gry: " + sensorData.y);
+	console.log("grz: " + sensorData.z);
     
 }
 
-function gyroscope_onerrorCB(error) {
+function gravity_onerrorCB(error) {
     console.log("Error name:"+error.name + ", message: "+error.message);
 }
 
-function stopGyroscope(){
-	gyroscopeSensor.stop();
+function stopGravity(){
+	gravitySensor.stop();
 }
 

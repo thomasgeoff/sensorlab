@@ -2,7 +2,7 @@ var gx,gy,gz = 0;
 
 var gyroscopeSensor;
 	
-var gyroRateEl;
+var gyroscopeRateEl;
 
 var gyroscopeCapability = tizen.systeminfo.getCapability('http://tizen.org/feature/sensor.gyroscope');
 
@@ -72,8 +72,8 @@ function gyroscope_onchangedCB(sensorData) {
 	gy = sensorData.y.toFixed(2);
 	gz = sensorData.z.toFixed(2);
 	
-	gyroRateEl.innerHTML = '';
-    gyroRateEl.innerHTML = "GX:" + gx+"<br>"+"GY:" + gy+"<br>"+"GZ:" + gz;
+	gyroscopeRateEl.innerHTML = '';
+    gyroscopeRateEl.innerHTML = "GX:" + gx+"<br>"+"GY:" + gy+"<br>"+"GZ:" + gz;
     
 	console.log("######## Get gyroscope sensor data ########");
 	console.log("gx: " + sensorData.x);

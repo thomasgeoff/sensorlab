@@ -10,7 +10,7 @@ function getHeartrate(){
 
 function hrm_onchangedCB(hrmInfo) {
 	heart_Rate = hrmInfo.hearRate;
-	peak_interval = hrmInfo.rRInterval
+	peak_interval = hrmInfo.rRInterval;
 	console.log('Heart Rate: ' + hrmInfo.heartRate);
 	console.log('Peak-to-peak interval: ' + hrmInfo.rRInterval + ' milliseconds');
     heartRateEl.innerHTML= '';
