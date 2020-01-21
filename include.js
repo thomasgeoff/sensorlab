@@ -30,4 +30,7 @@ include('js/sensorlab-master/vibrate.js');
 include('js/sensorlab-master/pedometerSensor.js');
 //uncomment the following line to activate Gps sensor 
 include('js/sensorlab-master/gpsSensor.js');
+//uncomment the following line to activate back button 
 include('js/sensorlab-master/backButton.js');
+//uncomment the following line to activate back button 
+include('js/sensorlab-master/requestToWebapp.js');

@@ -1,0 +1,356 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="DistributorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="author-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wRRqLXcvzCH0kLIVVmAnPzhIHlOy9bgXOTesilFqAs8=</DigestValue>
+</Reference>
+<Reference URI="config.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>f+ryr+oXvEW0kwxpx6RRflbpOK4uu9W/UEmvY40Cx9s=</DigestValue>
+</Reference>
+<Reference URI="css%2Fstyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SOJFqE2Sqa0d5SbtMxJ2fKCgsyhSZUhrF+EobT8O1pk=</DigestValue>
+</Reference>
+<Reference URI="icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vPjxjOppORd6hn9Bw4sh06gqtDoJzoFbV/8e9FyIdvk=</DigestValue>
+</Reference>
+<Reference URI="index.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Bz91YSU3P8VhJ9YjefjgzUQqllane/WRpAd6MAkpuXM=</DigestValue>
+</Reference>
+<Reference URI="js%2Fmain.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YQUR5twEKy/3DNv+kIuQL1NyIBmNcujujkub14cLko0=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2FCOMMIT_EDITMSG">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FugEinsaWj2bmn6jCWm2AbH/n/7Jz3VfCgiqK2r076I=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2FFETCH_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>m4E79hwaNar0nT+kb30DaVRhmE19UosYNa7IUGU+4sU=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9vK5RfbEEbAro9qces6I3PcbavZbouDYmqgpAAQrWhA=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2FORIG_HEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>g/N9mdnx/Ds4UrPyMruhsQmRMpKaHh/GvXrlDRRX9qk=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fconfig">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/+EY98d9FOM5CJyT4j37Am/SOprCQ9LEiNeCDktffZY=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fdescription">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hatsFj1DoX6pz3eIMIvKFGbxsKjRzJLibpv2PaQGKu4=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fapplypatch-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AiNJeguLAzqlijpSG4YphpOGz3qw4vEBlj0yiqYhk/c=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fcommit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>H3TV6SkpebVz69WXQdRsuT/zkazdCD00C5Q3B1PZJDc=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Ffsmonitor-watchman.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>f5ys8ffI95Gr+qdhcblRpVqaKhHxOQtDy8g5lbSpGzM=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fpost-update.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gXZa8trvMjBh3LxeYfwWSBy3SzusmtihdLGGUjWG9sU=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fpre-applypatch.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4VxbRp6j4KaVvqbyyCvPjmKCEHSTnd2Ft34AB/8WVHU=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fpre-commit.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1tEU5QejKV/zouIUYRwvXA0T6vDtU/WVugLkzHFPyhg=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fpre-push.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SxEZ4eE6ISVxl29K7neEfNvUCXhUbWJzpVfiOJgaQNE=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fpre-rebase.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>T+vOhneQBSM4B29OZsxH77FIedGAl9HWHIJhhZ6qp7M=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fpre-receive.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pMPSuce7P9jRRBwxvU7nGlldZrRPz0ndsxAlIyAWmYk=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fprepare-commit-msg.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6d3KpBif3dJe2X/Ix4nsp7bKFjkLI5KuMnbwyOGqRhk=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fhooks%2Fupdate.sample">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dRwDcyACTsLuJ1fz/64LEK0slGNnaE5wWdTcl+rH5DE=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Findex">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ucxRR5VFpGhXEZoE4y5/QkRbz+a0g+7gD3pGlUvfaTM=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Finfo%2Fexclude">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZnH+g7egfIky7okWTR8nk7IxgFjri5jcXAbuClo7DsE=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Flogs%2FHEAD">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>89N8evrGrVbpj6JJvQFUptpjHFWhR87MQ0U8+aFv8Zc=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Flogs%2Frefs%2Fheads%2Fmaster">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>89N8evrGrVbpj6JJvQFUptpjHFWhR87MQ0U8+aFv8Zc=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Flogs%2Frefs%2Fremotes%2Forigin%2Fmaster">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>E6YYj+vZvUgUoV1/WRGga8WWJHA7PN096VoEvRO3tJU=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F04%2Fa143efa370f16c34752dbe1715b5026e06ff90">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>H1wt4VNRXEFhzC1apvVHSpMYdNS67SuTEV0v8DGM48c=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F07%2F0c5e586ac51ccec01f2d9ef4f13daad8236fe5">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qrVuL8X5SXQ36S36EpDFFSI/xOPf3Ih4bv8KGzBx5Ec=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F0c%2Ff23c755e365191aa8d84402f96150f777b5642">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aIN6rHTlPcVprqZSXUZdMfKWKjwujYD/9OE82/mmZYI=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F10%2F0998fa3bed61160d19420391d87108bf377d0e">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>S6/R5B3sw3FBMaaGBY3nTTzsd4eDboZSuB2pveSBMeY=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F1d%2F7f4abad3bbb9e94c1eb5a9d45e7c36637403b8">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>P6rn3FeqO7v3MUHkWsd/NJmeX6caT1Iu8rQT9QHreC4=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F27%2Fe74236726c8536c0e6aad64f0e3d198089e7cb">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dUmhBMlj77DJkKeGjmpWWocEPrZ85srpveQUMe9ozdc=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F33%2F8e7a4895cb00f89d095d0b551217a4f9998450">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/5Wm2pMyhr3/MMXflE4C4gqEiHyeHgxPzx1lzkSyZa8=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F55%2F00c3293669b9f6a6f67017825da6f8b272dc49">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BeRr3RZn9s4EqLo4xAPnfHTS0H7xsPjiws5s+Neqmj8=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F57%2F435e22be6a1b5e5c7f6e660c8baa4e6540c612">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4wT25krmLqoFY37oMFpP3EQ0WKE0xVFX2Wmb6GGxF2Y=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F6e%2F74eff5bd6b305ee2e165b4abfcbd84c7548182">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sz+jd8aLzlpf/mIHLNR8O/UpLkZET7JcTz3/rz2Ea2M=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F71%2F5a91b15fce29e24bb38996c01fb0957a990ac5">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4oajsaAJSV7rUfSx4Vv1WaDw878S57wbAowfu3LjHrI=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F74%2F62ab7eeb7af81c031227d5c15e0d6e70261505">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6+Ihni5TUqe3eI6Ag7spn71f/z+x/omOwpmv1vNALio=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F76%2F929327b523db5d50dbc038cd5ae5e889c84f0f">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5tPP/vXPWSQhbWLmyxWh+DmF+E1mkgFzkDdR18K7boo=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F8b%2F77d923b03efe5ec2be8567567f496bcc1df75c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yiuBZs5V1GmfxANzsNQz/sPT1dDu95qGQP3jf+IWjA0=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F8f%2F75c6659dd5b4b97ce4c4207090e6a35a322341">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NLPLMATr/r4SWeJc3eIp2ApNJp9zzr0WhUvh+OSTe58=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F97%2Fa0077de0a7934d97fa5656f367fc6e57f3bccb">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zu58jd4YT0rIpahjKL1HSXotXulSjbe9GiugcopNom4=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F9a%2F9d0a2cd4d27395edcfe116309290c4a2b4d210">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yoAD1drcjPdJrQV1ZuNMAkLwoJ4NIA97a/uK6gP07RY=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2F9d%2F2d2148992945d54d1dbcf660b413a33e992f2b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5LMovfDCVC1KpqD5gS8560/ssvNuIdBsrTATEzoOWEQ=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Faf%2F1c3e57e57d3d6ee8b42acc64209d46978e8574">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wL0bvFtm9MmuoN61vxgkNVSh/8CP9hq8HAqF+JtNfzc=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Fb2%2F53578ab72b9177edb0552013873cf4ef81a82b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9/WkxYe5oijNRKSplhTYfcjm+o4Ji61F38mhGkZkOoI=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Fc6%2Fdf36119cf6839f37ac2198bd2e7716cf3a1fd6">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YpDErMOLVQYRgqZRTAxewisR8mDZVQhpW6edjvmrlCE=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Fc8%2F0c95c306c93e23541562fc7f578381106f30d1">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Wuz8apPdRerG8N1HLOZauH+4IW0NjW2TJ64RPF7u4pI=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Fcb%2Ff9422623ee17537027eaab68d26ec3fd1fc2b1">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wByxqNSz4mywIrCcvtKUKw+1axG4pa65PJnjyxtk4vA=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Fcf%2Fef2034600dfb620b5477a6939fa47924085fa2">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wmJEsEggO2MdC1HvJ1MMhqh4Wv05hC4iFYniJevQXdg=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Fd0%2Fc74a282197da15440597a4cc2f8294d45c4795">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>edU+GbwEc+04PuKnQEnoalC83c9RPffs8aiba+CMSRE=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Fd1%2F3890e6f4af837d6f409fd259c562b82859b850">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zVDv1Q5BLbOCIai8uc+tqkSCkAzS9jD3XLHzCmgDVwM=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Fd9%2Ffccd0130936aeb1db74e769bccc598316f9624">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WsWgta7VmMtLai/gTAd+shiYibRrhbFzs9HbkuCnTR4=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Fdf%2Fe0770424b2a19faf507a501ebfc23be8f54e7b">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vCdlxwEidekh8i+5TVMVgSLGk9DPZCZAbWqvGYSKQ9c=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Ff3%2Fc2f0705988dd5c4ec5b04442413b3bbc2e8e76">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cCSygWR3p9xHjMNaquXuUPqXy/b0MGS631FAq8bhLEg=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Fobjects%2Ff5%2Fdec47f00b0539287b39043a0de3cedbe600a02">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>T7FHXASAjlA1d/Hhhc7uB2etnJCndr2bofE0o6ZlPTY=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Frefs%2Fheads%2Fmaster">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4zYdK0oQtkVNLAm5vA0WHPM9qn+C68yK9IuOPRpTLMA=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.git%2Frefs%2Fremotes%2Forigin%2Fmaster">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4zYdK0oQtkVNLAm5vA0WHPM9qn+C68yK9IuOPRpTLMA=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2F.gitattributes">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Gh2+F2vCM7SZ01pX23UT8pQcmauXWfF3gwyRSb6ZAFs=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FaccelerometerSensor.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+8rYxocmPTj0gKlwSf7FolvCTsx2zPiTnA3VW79Rg3o=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FbackButton.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>L1dN//W7tKeWtgo9Y1PmNzqHXs+PrECM2JQ+rnve6U4=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FgpsSensor.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6ujqxvsKyICZb60+pyQxaGj260ht1U/KztJDnDrpXXw=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FgravitySensor.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tP3lnPiUeTzVI40Doa5TiaXCRgTKrpCoRSFQeQoe1uc=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FgyroscopeSensor.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Bh/vS1TVQMLUg2oc/60PVkZuzgrf1hmHnyzYaSXJ5vY=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FheartrateSensor.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xcDjukYrTgQstKfdshozfS4fCTVyHXxl4Qx66fJ2bCo=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2Finclude.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rxsDW5Ojp46VTzStmOorRmybWuj9+avVlqblCOZXR0M=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FlightSensor.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Sc6OACuYYrGKyKenq9P3yHBz3bcyE1Akd6kMagPhv94=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FpedometerSensor.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>auRlViWRfwZT5/6ltKtIrx1aN3YP4dI3S/V6FRI8pcs=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FpressureSensor.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OeyxLcP/yP5SZxGo6D6oVr4LbNLbEDCogaECHF+f7EE=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2FrequestToWebapp.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EWih/Z61MFk6jjGBaNatCY4IvjnAHaE6PyqtQqCwu0Y=</DigestValue>
+</Reference>
+<Reference URI="js%2Fsensorlab-master%2Fvibrate.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FHvPGNXFuvZrRPF3vDqHjSE8j26MNnqWu7+paGer1gE=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>u/jU3U4Zm5ihTMSjKGlGYbWzDfRkGphPPHx3gJIYEJ4=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+GYEtfONIKVKMVLFTwrznNQJMtkKQxnIqYVRl77J9RFDE+nUjjGJzlR/gKeQbuHnLiy5vvo+9fCmK
+ziPP4RXDtuO8lrfDCLOlQIv5jCjIpioLJCCC1atsLNkZe+VI1ehRR5pDf6UXC5+kzeVtdSd/u0RX
+Hd67HHfPkVmTC+B5pqbfYn9J0AyA/9E8wuyB5CIOunscIL8DXyu1GfWnWhj+Y2By+zIuVgeZNKf8
+akCdRg66KH8dSGi6Of2Y77FIKrYDKu3WyyrSz2zuUph2ksKuw4M2wZNXY+uEFKIsmhQbGnw7DfVI
+1TuH4AN1cIYLYOg35pmhNEJxo8EVO05ZGxmE/Q==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIID5zCCAs+gAwIBAgIBZjANBgkqhkiG9w0BAQsFADCBnzELMAkGA1UEBhMCS1IxFDASBgNVBAgM
+C1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBFbGVjdHJvbmlj
+cyBDby4sIEx0ZC4xDzANBgNVBAsMBk1vYmlsZTExMC8GA1UEAwwoU2Ftc3VuZyBUaXplbiBERVZF
+TE9QRVIgUGFydG5lciBDQSBDbGFzczAeFw0xOTEyMjIyMTMwMjFaFw0yMDEyMjEyMTMwMjFaMHQx
+ETAPBgNVBAMMCFRpemVuU0RLMQkwBwYDVQQLDAAxCTAHBgNVBAoMADEJMAcGA1UEBwwAMQkwBwYD
+VQQIDAAxCTAHBgNVBAYTADEoMCYGCSqGSIb3DQEJARYZc2F1bXlhc2F4ZW5hMDA0QGdtYWlsLmNv
+bTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANVz0TmanpGVaL4/vQsP8kIX34BGXem1
+2EH+9E0vK2z1Na+ZCk95S7jyb5n72Q3azHlSIzBKYYqBdaHvUAsnhzcapI0NsPT6AOgQsCAcuidr
+3aEnSXWgmhqWjMUcZ3jsMpywjrx11mzeB7lbg9VQq0hVip+uzH7REOYhOw+0CqIbJyvjsvfEtezp
+WilM998p4J8k0xVAyaHe3R8Fr5/Yg45I2uIL7+f+gY95mS4OPp/5ufp88Mt668oMFaX6k4LBeJW6
+jUpGrGw4qmjo0rGrZTYdA7wtKz8ZcjNTqzFtbXrbbQ03O0q7f63bD6qQl46aueZTYPNEQlgGjnoV
+wNS9GDUCAwEAAaNYMFYwVAYDVR0RBE0wS4YUVVJOOnRpemVuOnBhY2thZ2VpZD2GM1VSTjp0aXpl
+bjpkZXZpY2VpZD0yLjAjR2VSMGQxK1dZSHhiOGQ3cUJFSWZxOUlnb1UwPTANBgkqhkiG9w0BAQsF
+AAOCAQEAY1m25mSZyrQ+zXcYRPA+JjEdeqS4V9gzcP4PH8eQLh3UaQX0nTQtzgbKq1zIqqkbTqGo
+3QOI5JpIUYYhkHpscQ1vAZZVzEyI399+poqjGSsA6sIt2Wl3DNBflyvpjaHaNtiQ/3tnZQhaZpjq
+7J5YX+UQ8hpf0XpuX2R0252I9RrR5SxUSdM4W0OvHb6mXrW6O/pmBKHr0hkdolHl7AOPIpupJ5yg
+v2GUDoHauuZ8F5t1fapnOSCCZRUc0SnLGW+WuSFxzeyb9ERPNWr2zjpvZHFJe9qL8LWZAOWCch9O
+XDEE3XWaPG0292n/3Lv0+jrPz5uOi5gCNs7NjaGf74jycA==
+</X509Certificate>
+<X509Certificate>
+MIIDvTCCAqWgAwIBAgICfoQwDQYJKoZIhvcNAQELBQAwgZAxCzAJBgNVBAYTAktSMRQwEgYDVQQI
+DAtTb3V0aCBLb3JlYTEOMAwGA1UEBwwFU3V3b24xJjAkBgNVBAoMHVNhbXN1bmcgRWxlY3Ryb25p
+Y3MgQ28uLCBMdGQuMTMwMQYDVQQDDCpTYW1zdW5nIFRpemVuIERFVkVMT1BFUiBQYXJ0bmVyIFJv
+b3QgQ2xhc3MwHhcNMTMxMjMwMTUwMTQ3WhcNMjgxMjI2MTUwMTQ3WjCBnzELMAkGA1UEBhMCS1Ix
+FDASBgNVBAgMC1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBF
+bGVjdHJvbmljcyBDby4sIEx0ZC4xDzANBgNVBAsMBk1vYmlsZTExMC8GA1UEAwwoU2Ftc3VuZyBU
+aXplbiBERVZFTE9QRVIgUGFydG5lciBDQSBDbGFzczCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBANZ4SYoV1OV+TbLkMqyp3cbLmtsxzGNBI5Vp9YllLBIqVeQH3652YXZOoFE5StKV4VTF
+FPZ81KpUoN55Yey1d/XOizkoMV30SIgAycCjsiVQ1nldQtcW+LvwItguMCkdIthSuZ75wmtZsc3Z
+4dwdWTEFMlS6nYGX8oMj0clj8c4DAv6eZJBn3R7tY4bRL1Lj6umCDgOQMlRKlCnQLzfZJIY3UJY8
+Z8EC7VWu2MR+ZeQwtTRgiYr9Cs43R6MPV4UGuqqsrYpErvetm6q4R+ZLfRG9/sMs0A2vpAZw6mkR
+CP2hG8JM4HFwkGJV3pjP/bEwp0VQHx+t+myXk3q7hkcZRU8CAwEAAaMQMA4wDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAdEUQlqiFPLGxbHCv2eiF4gZgVo5cjHSuLuK2BNXjlBD639Or
+oB+xb3AH5Na592rhiZaQ5MFuWZAN61NfI0CVic+sNxX92suKTAMFU9XsHSveirx5Z8ettJMaJHzL
+I71E1CFdDJBzBChnrJ+BBeW3QTenRlSYUs5kXWjhJWQGfQwlNAmnft/JdBVDY/V+oumtT19VCj04
+fACl0zRuybvSXNzO3tP1aPzbtpfnUye5tYzuzP5qYadtVjJU4pnUVVo25iD+qOQG4DTHxMYS+3MW
+ACK+EaXMpIOJxQguK/jeMJXGxoKlebVgYuUEKFwtgbJ5hy/ss5epcfyrRjurvAY/VA==
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#DistributorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#DistributorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-distributor"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#DistributorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>
